@@ -1,0 +1,86 @@
+/* ECF  Titre professionnel
+Autheur : Chris DJYA
+CPP1
+
+CONCEVOIR ET DÉVELOPPER DES COMPOSANTS D'INTERFACE
+UTILISATEUR EN INTÉGRANT LES RECOMMANDATIONS DE SÉCURITÉ
+01 PROJET
+DURÉE : 07 HEURES
+RÉALISATION : PERSONNELLE
+INTERNET : AUTORISÉ
+MISE EN SITUATION
+TITRE PROFESSIONNEL
+CONCEPTEUR DÉVELOPPEUR D'APPLICATIONS
+COMPÉTENCE
+DÉVELOPPER DES PAGES WEB STATIQUES ET ADAPTABLES
+
+*/
+
+
+/* html elements */
+
+body {
+
+   height: 100%;
+   font-family: 'Poppins', sans-serif;
+   background-color: #f0f2f7;
+   
+}
+
+h1,h2,h3,h4,h5,h6  {
+
+   font-family: 'Poppins';
+   font-weight: 700;
+   line-height: 1.5rem;
+   letter-spacing: 10px;
+
+
+}
+
+
+/* header */
+
+.row {
+  width: 100%;
+
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
