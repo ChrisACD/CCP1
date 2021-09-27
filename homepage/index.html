@@ -8,7 +8,15 @@
     <!-- intégrer bootstrap ou générer bootstrap-custom (sass) -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
+   
+   
+    <!-- normalize -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 
+
+    <!--  font icon -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- font  -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,10 +35,10 @@
 
        <div class="row">
 
-                 <div class="navbar">
+                 <ul class="navbar">
 
-                       <div class="nav-items">Bespoke</div>
-                       <div class="nav-items">Menu & informations</div>
+                       <li class="nav-items brand"> <h4>bespoke </h4> </li>
+                       <li class="nav-items"> <p class="petit"> Menu & informations </p> </li>
 
 
 
@@ -56,9 +64,9 @@
 
                         <div class="section-1-info">
 
-                            <p>We do nothing less than perfect</p>   
+                            <p class="petit">We do nothing less than perfect</p>   
                             <h1>Punctuality starts here.</h1>   
-                            <button class="btn btn-primary">Learn More about us</button>
+                            <button class="btn btn-primary ">Learn More about us <i class="fas fa-arrow-right"></i></button>
 
                         </div>
 
@@ -82,9 +90,9 @@
 
            <div class="section-2-info">
 
-               <p>Meet our experiences</p>   
-               <h1>We create masterpieces.</h1>   
-               <p>We believe in coming up with original ideas and turning them into digital work <br> that is bnoth innovative and measurable.</p>
+               <p class="red part1">Meet our experiences</p>   
+               <h1 class="black">We create masterpieces.</h1>   
+               <p  class="black part2">We believe in coming up with original ideas and turning them into digital work <br> that is bnoth innovative and measurable.</p>
 
            </div>
 
@@ -110,8 +118,9 @@
             <div class="section-3-info">
 
                 <p>What we do</p>   
-                <h1>we have ability <br> to develop & anything.</h1>   
-                <button class="btn btn-primary">Learn More about us</button>
+                <h1>we have ability </h1>
+                <h1> to develop <span class="yellow"> & </span> anything.</h1>   
+                <button class="btn btn-primary">Learn More about us <i class="fas fa-arrow-right"></i></button>
 
             </div>
 
@@ -134,79 +143,85 @@
 <section id="section-4" class="container-fluid">
 
 
-    <div class="row">
 
             <div class="section-4-info">
 
 
                 <div class="boc-1">
 
-                    <h6> Why choose us ?</h6>   
-                    <h1>we don't just build websites, we <br> build brands.</h1>   
+                    <h6 class="red"> Why choose us ?</h6>   
+                    <h2 class="black">we don't just build websites, we <br> build brands.</h2>   
 
                 </div>
-                  
-                <div class="boc-2">
 
-                    <div class="bloc-2-info">
+            </div>
 
-                        <p class="rouge">  Our team works shoulder-to- shoulder, ensuring a project is never created in isolation.</p>
-                        <p> Every project has its own unique goals and vision. Whatever your project demands, our extended network of strategists, creatives and technology specialists is always eager to pitch in. We know it helps to know good people. </p>
-                         <p class="rouge"> Richie Meldrum  </p>
-
-
-                    </div>
+        </section>
  
+       <!-- End section 4 -->
+     <!-- section4 bis -->
 
-                    <div class="bloc-2-img">
-
-                       <img src="" alt="">
-
-
-                    </div>
+     <section id="section-4-bis" class="container-fluid">
 
 
-                </div>
-      
+
+        <div class="section-bis-card">
+
+            <div class="bloc-item">
+
+                <p class="red">  Our team works shoulder-to- <br> shoulder, ensuring a project is never <br> created in isolation.</p>
+                <p class="grey"> Every project has its own unique goals and vision. Whatever your project demands, our extended network of strategists, creatives and technology specialists is always eager to pitch in. We know it helps to know good people. </p>
+                 <p class="red"> Richie Meldrum <img class="img" src="../homepage/img/bespoke28.jpg" alt=""> </p>
 
             </div>
 
 
-    </div>
+               
+                <div class="bloc-item">
+
+                <img src="../homepage/img/bespoke29.jpg" alt="">
+
+               </div>
+
+        </div>
+    
+
+    </section>
+
+
+<!-- section4 bis -->
+    
 
 
 
 
-</section>
 
-<!-- End section 4 -->
+
+
 
 <!-- start section 5 -->
 
 
-<section id="section-5" class="container-fluid">
+<section id="section-5" >
 
 
-    <div class="row">
+    
 
             <div class="section-5-info">
 
+                  <div class="span">"</div>
+
                 <p>There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. By far one of the worlds best known brands.</p>   
-                 
-                <p >
-                    <span class="rouge">Jack Lawson</span> <br>
-                    New york - USA
-                </p>
+            
+                <p class="red">Jack Lawson </p>
+                 <p>  york - USA  </p>
 
             </div>
 
-
-    </div>
-
-
-
-
 </section>
+
+
+
 
 <!-- End section 5 -->
 
@@ -218,8 +233,8 @@
 
              <div class="section-6-info">
 
-               <h6> Who we worked for</h6>
-                <h3> Our client experience  </h3>
+               <h6 class="black"> Who we worked for</h6>
+                <h2 class="black"> Our client experience  </h2>
 
              </div>
 
@@ -230,14 +245,14 @@
 
                 <div class="section-6-item">
     
-                   <img src="" alt="">
+                   <img src="./img/bespoke34.jpg" alt="">
      
                 </div>
     
     
                 <div class="section-6-item">
     
-                    <img src="" alt="">
+                    <img src="./img/bespoke35.jpg" alt="">
       
                 </div>
     
@@ -245,80 +260,73 @@
     
                  <div class="section-6-item">
     
-                    <img src="" alt="">
+                    <img src="./img/bespoke36.jpg" alt="">
       
                  </div>
     
                  <div class="section-6-item">
     
-                    <img src="" alt="">
-      
-                 </div>
-    
-    
-                 <div class="section-6-item">
-    
-                    <img src="" alt="">
+                    <img src="./img/bespoke37.jpg" alt="">
       
                  </div>
     
     
                  <div class="section-6-item">
     
-                    <img src="" alt="">
+                    <img src="./img/bespoke38.jpg" alt="">
       
                  </div>
     
     
                  <div class="section-6-item">
     
-                    <img src="" alt="">
-      
-                 </div>
-    
-                 <div class="section-6-item">
-    
-                    <img src="" alt="">
+                    <img src="./img/bespoke39.jpg" alt="">
       
                  </div>
     
     
                  <div class="section-6-item">
     
-                    <img src="" alt="">
+                    <img src="./img/bespoke40.jpg" alt="">
+      
+                 </div>
+    
+                 <div class="section-6-item">
+    
+                    <img src="./img/bespoke41.jpg" alt="">
       
                  </div>
     
     
                  <div class="section-6-item">
     
-                    <img src="" alt="">
-      
-                 </div>
-    
-                 <div class="section-6-item">
-    
-                    <img src="" alt="">
+                    <img src="./img/bespoke42.jpg" alt="">
       
                  </div>
     
     
                  <div class="section-6-item">
     
-                    <img src="" alt="">
+                    <img src="./img/bespoke43.jpg" alt="">
+      
+                 </div>
+    
+                 <div class="section-6-item">
+    
+                    <img src="./img/bespoke44.jpg" alt="">
+      
+                 </div>
+    
+    
+                 <div class="section-6-item">
+    
+                    <img src="./img/bespoke45.jpg" alt="">
       
                  </div>
 
 
 
             </div>
-
-
-
-    
-
-
-
 
 </section>
 
@@ -330,15 +338,15 @@
 
 
 
-<section id="section-7" class="container">
+<section id="section-7" class="container-fluild">
 
 
-    <div class="row">
+    
 
-            <div class="section-7-info">
+            <div class="section7-info">
 
-                <p >  Blogs and Insights </p>
-                <h3> Our thoughts</h3>
+                <p class="black" >  Blogs and Insights </p>
+                <h3 class="black"> Our thoughts</h3>
 
             </div>
 
@@ -348,25 +356,25 @@
                 <article class="card-item">
 
                 <header>
-                      <img src="" alt="">
+                      <img src="./img/bespoke-blog-1.jpg" alt="">
                 </header>
 
                 <div class="card-info">
 
                     <div class="card-info-1">
-                      <p class="rouge">January, 13, 2018 </p>
-                      <h5>How to Approach Social <br> Media as a Small Business.</h5>
+                      <p class="red">January, 13, 2018 </p>
+                      <h5 class="black"> How to Approach Social <br> Media as a Small Business.</h5>
                     </div>
                   
                     <div class="card-info-2">
-                        <p >Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit. Stet gubergren ex per, denique consetetur cotidieque ad nec.</p>
-                        /h5>
+                        <p class="grey">Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit. Stet gubergren ex per, denique consetetur cotidieque ad nec.</p>
+                        
                       </div>
 
 
                       <div class="card-info-3">
-                        <span class="span1"><p>By John Doe</p></span>
-                        <span class="span2"><i> </i> 4 comments</span>
+                        <span class="span1 red">By John Doe</span>
+                        <span class="span2 grey"><i class="far fa-comment-alt red"></i> 4 comments</span>
 
                       </div>
 
@@ -377,26 +385,26 @@
                 <article class="card-item">
 
                     <header>
-                          <img src="" alt="">
+                          <img src="./img/bespoke-blog-2.jpg" alt="">
                     </header>
     
                     <div class="card-info">
     
                         <div class="card-info-1">
-                          <p class="rouge">January, 13, 2018 </p>
-                          <h5>
+                          <p class="red">January, 13, 2018 </p>
+                          <h5 class="black">
                             Have there been any good <br> startups founded since 2016?</h5>
                         </div>
                       
                         <div class="card-info-2">
-                            <p >Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit. Stet gubergren ex per, denique consetetur cotidieque ad nec.</p>
+                            <p class="grey">Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit. Stet gubergren ex per, denique consetetur cotidieque ad nec.</p>
                            
                           </div>
     
     
                           <div class="card-info-3">
-                            <span class="span1"><p>By John Doe</p></span>
-                            <span class="span2"><i> </i> 4 comments</span>
+                            <span class="span1 red">By John Doe</span>
+                            <span class="grey" ><i class="far fa-comment-alt red"></i> 4 comments</span>
     
                           </div>
     
@@ -407,25 +415,25 @@
                     <article class="card-item">
 
                         <header>
-                              <img src="" alt="">
+                              <img src="./img/bespoke-blog-3.jpg" alt="">
                         </header>
         
                         <div class="card-info">
         
                             <div class="card-info-1">
-                              <p class="rouge">January, 13, 2018 </p>
-                              <h5>Design & Usability From A <br> Marketing Perspective.</h5>
+                              <p class="red">January, 13, 2018 </p>
+                              <h5 class="black">Design & Usability From A <br> Marketing Perspective.</h5>
                             </div>
                           
                             <div class="card-info-2">
-                                <p >Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit. Stet gubergren ex per, denique consetetur cotidieque ad nec.</p>
+                                <p class="grey">Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit. Stet gubergren ex per, denique consetetur cotidieque ad nec.</p>
                                
                               </div>
         
         
                               <div class="card-info-3">
-                                <span class="span1"><p>By John Doe</p></span>
-                                <span class="span2"><i> </i> 4 comments</span>
+                                <span class="span1 red">By John Doe</span>
+                                <span class="grey"><i class="far fa-comment-alt red"></i> 4 comments</span>
         
                               </div>
         
@@ -434,13 +442,6 @@
 
 
             </div>
-
-
-
-    </div>
-
-
-
 
 </section>
 
@@ -458,8 +459,8 @@
 
            <div class="section-2-info">
 
-           <h5>We would love to hear from you</h5>  
-               <h1>say hello!</h1>   
+           <h5 class="black">We would love to hear from you</h5>  
+               <h1 class="black">say hello!</h1>   
 
            </div>
 
@@ -481,16 +482,14 @@
 <section id="section-9" class="container-fluid">
 
 
-    <div class="row">
-
             <div class="section-9-card">
 
 
                 <article class="section-9-card-item">
 
                     <header>
-                          <img src="" alt="">
-                          <h5> SAN FRANSISCO OFFICE</h5>
+                          <img src="./img/bespoke55.jpg" alt="">
+                          <h5> SAN FRANSISCO</h5>
 
                     </header>
 
@@ -498,21 +497,21 @@
                     <div class="section-9-card-info">
     
                         <div class="card-info-1">
-                          <p>January, 13, 2018 </p>
+                            <h6 class="black">SAN FRANSISCO OFFICE</h6>
                           <p class="grey">70 GREENVIEW AVE. </p>
                           <p class="grey">TEMPLE HILLS, MD 20748 </p>
                           
                         </div>
                       
                         <div class="section-9-card-info-2">
-                            <p >1.800.987.6543</p>
+                            <h6 class="black pad"> 1.800.987.6543</h6>
                            
-                          </div>
+                        </div>
     
     
                         
-    
                     </div>
+
                     </article>
 
 
@@ -521,8 +520,8 @@
                     <article class="section-9-card-item">
 
                         <header>
-                              <img src="" alt="">
-                              <h5> NEW YORK OFFICE</h5>
+                              <img src="./img/bespoke56.jpg" alt="">
+                              <h5> NEW YORK </h5>
     
                         </header>
     
@@ -530,14 +529,14 @@
                         <div class="section-9-card-info">
         
                             <div class="card-info-1">
-                              <p>January, 13, 2018 </p>
+                            <h6 class="black">NEW YORK OFFICE</h6>
                               <p class="grey">70 GREENVIEW AVE. </p>
                               <p class="grey">TEMPLE HILLS, MD 20748 </p>
                               
                             </div>
                           
                             <div class="section-9-card-info-2">
-                                <p >1.800.987.6543</p>
+                                <h6 class="black pad" >1.800.987.6543</h6>
                                
                               </div> 
         
@@ -547,7 +546,7 @@
             </div>
 
 
-    </div>
+   
 
 </section>
 
@@ -556,14 +555,19 @@
 
 <!-- start footer -->
 
-      <div class="container-fuild">
+      <div class="container-fluid">
 
-            <div class="row">
+            
+        <div class="footer">
 
-                <h6>
-                    2021. Académie Digitale. Tous droits réservés.
-                </h6>
-            </div>
+            <h6 class="grey">
+                2021. Académie DIGITAL. Tous droits réservés.
+            </h6>
+       
+
+
+        </div>
+
 
       </div>
 
@@ -576,4 +580,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
-© 2021 GitHub, Inc.

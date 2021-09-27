@@ -20,9 +20,7 @@
     max-width:1200px;
     margin:0 auto;
 }
-.row{
-    display:flex;
-}
+
 .col-12{
     width:100%;
 }
@@ -46,3 +44,28 @@
     }
 }
 
+
+
+/* color */
+.red {
+
+    color: #fb0060;
+}
+
+.grey {
+
+    color:#999999;
+}
+
+
+.black {
+
+    color:#000000;
+
+}
+
+.yellow {
+
+    color: rgb(238, 216, 20);
+
+}
